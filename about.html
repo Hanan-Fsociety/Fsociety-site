@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>About • FSociety</title>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+
+<div class="nav">
+  <div class="nav-inner container">
+    <a class="logo" href="/">
+      <span>
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.6"/>
+<path d="M7 9h10M7 12h10M7 15h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
+</span>
+      <b>FSociety</b>
+    </a>
+    <div class="nav-links">
+      <a href="/" data-nav="home">Home</a>
+      <a href="/tools.html" data-nav="tools">Tools</a>
+      <a href="/blog.html" data-nav="blog">Blog</a>
+      <a href="/about.html" data-nav="about">About</a>
+    </div>
+  </div>
+</div>
+
+<main class="container">
+  <div class="card">
+    <h1>About</h1>
+    <p class="lead">This is a clean, minimal site built with static HTML/CSS/JS and hosted on Vercel. Edit everything from your phone.</p>
+    <p>Tips:</p>
+    <ul>
+      <li>Add tools in <code>data/tools.json</code></li>
+      <li>Add posts in <code>posts/</code> and list them in <code>data/posts.json</code></li>
+      <li>No frameworks, no TypeScript — just simple files.</li>
+    </ul>
+  </div>
+</main>
+
+<div class="footer">
+  <div class="container">
+    <div>© <span id="year"></span> FSociety — for education & research.</div>
+    <div><small class="code">Hosted on Vercel • Static HTML</small></div>
+  </div>
+</div>
+<script src="/app.js"></script>
+
+</body>
+</html>

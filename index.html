@@ -1,0 +1,69 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>FSociety • Tools & Blog</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <meta name="description" content="FSociety — clean, non-sketchy collection of tools and tutorials."/>
+</head>
+<body>
+
+<div class="nav">
+  <div class="nav-inner container">
+    <a class="logo" href="/">
+      <span>
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.6"/>
+<path d="M7 9h10M7 12h10M7 15h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
+</span>
+      <b>FSociety</b>
+    </a>
+    <div class="nav-links">
+      <a href="/" data-nav="home">Home</a>
+      <a href="/tools.html" data-nav="tools">Tools</a>
+      <a href="/blog.html" data-nav="blog">Blog</a>
+      <a href="/about.html" data-nav="about">About</a>
+    </div>
+  </div>
+</div>
+
+<main class="container">
+  <section class="hero">
+    <div class="card">
+      <h1>FSociety Tools & Tutorials</h1>
+      <p class="lead">A clean, minimal hub for my tools, write-ups, and guides. No spammy popups. No sketchy stuff. Just value.</p>
+      <div class="cta">
+        <a class="btn" href="/tools.html">Browse Tools</a>
+        <a class="btn secondary" href="/blog.html">Read the Blog</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Quick Start</h2>
+      <p>Everything on this site is static HTML — easy to edit from your phone. Update text or add new tools by editing a simple JSON file.</p>
+      <ul>
+        <li>Edit <code>data/tools.json</code> to add tools</li>
+        <li>Add blog posts to <code>/posts/</code> and list them in <code>data/posts.json</code></li>
+        <li>Deploy free on Vercel</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Featured</h2>
+    <div id="featured" class="grid"></div>
+  </section>
+</main>
+
+<div class="footer">
+  <div class="container">
+    <div>© <span id="year"></span> FSociety — for education & research.</div>
+    <div><small class="code">Hosted on Vercel • Static HTML</small></div>
+  </div>
+</div>
+<script src="/app.js"></script>
+
+</body>
+</html>
