@@ -1,0 +1,34 @@
+[
+  {
+    "name": "WhatsApp Unban Appeal Generator",
+    "description": "Create a respectful, concise appeal template to contact WhatsApp Support.",
+    "url": "#",
+    "tags": [
+      "template",
+      "support",
+      "guide"
+    ],
+    "featured": true,
+    "new": true
+  },
+  {
+    "name": "Discord Startup Fix (Linux)",
+    "description": "Common fixes when Discord gets stuck on 'Starting\u2026' (cache reset, .deb reinstall).",
+    "url": "posts/discord-starting-fix.html",
+    "tags": [
+      "discord",
+      "linux",
+      "troubleshooting"
+    ],
+    "featured": true
+  },
+  {
+    "name": "OSINT Usernames Checklist",
+    "description": "A simple checklist and tool links for searching usernames across platforms.",
+    "url": "posts/osint-usernames.html",
+    "tags": [
+      "osint",
+      "checklist"
+    ]
+  }
+]

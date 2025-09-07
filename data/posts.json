@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Hello World \u2014 Welcome to FSociety",
+    "excerpt": "What this site is, how to edit it from your phone, and how to deploy on Vercel.",
+    "date": "2025-09-07",
+    "path": "/posts/hello-world.html"
+  },
+  {
+    "title": "Discord 'Starting\u2026' Fix on Linux",
+    "excerpt": "If Discord hangs on the splash screen, here are quick fixes.",
+    "date": "2025-09-07",
+    "path": "/posts/discord-starting-fix.html"
+  },
+  {
+    "title": "OSINT: Username Search Basics",
+    "excerpt": "How to search for the same handle across platforms the clean way.",
+    "date": "2025-09-07",
+    "path": "/posts/osint-usernames.html"
+  }
+]
