@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Hello World — FSociety</title>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+<div class="nav"><div class="nav-inner container"><a class="logo" href="/"><span>
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.6"/>
+<path d="M7 9h10M7 12h10M7 15h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
+</span><b>FSociety</b></a></div></div>
+<main class="container">
+  <article class="card">
+    <h1>Hello World — Welcome to FSociety</h1>
+    <p class="lead">This is your first post. Edit posts from your phone and deploy instantly.</p>
+    <h2>How to Edit This Site</h2>
+    <ol>
+      <li>Open <code>data/tools.json</code> to add or modify tools.</li>
+      <li>Create a new file in <code>/posts/</code> for each blog entry.</li>
+      <li>Add the new post to <code>data/posts.json</code> to show it in the blog list.</li>
+    </ol>
+    <p>Everything is static HTML — clean and fast.</p>
+  </article>
+</main>
+<div class="footer"><div class="container">© <span id="year"></span> FSociety</div></div>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
