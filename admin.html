@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+  <a href="index.html">Home</a>
+  <a href="whatsapp-ban.html">WhatsApp Ban</a>
+</div>
+
+<div class="main-content">
+  <h1>Admin Panel</h1>
+  <p>Add new Tools or Blog posts here.</p>
+
+  <button id="addToolBtn">+ Add Tool</button>
+
+  <div id="toolForm" style="display:none;">
+    <input type="text" placeholder="Tool Name" id="toolName">
+    <input type="text" placeholder="Description" id="toolDesc">
+    <input type="text" placeholder="URL" id="toolURL">
+    <button onclick="saveTool()">Save Tool</button>
+  </div>
+</div>
+
+<script>
+document.getElementById('addToolBtn').addEventListener('click', function(){
+  document.getElementById('toolForm').style.display = 'block';
+});
+
+function saveTool(){
+  const name = document.getElementById('toolName').value;
+  const desc = document.getElementById('toolDesc').value;
+  const url = document.getElementById('toolURL').value;
+  alert(`Tool added:\n${name}\n${desc}\n${url}\n\nManual GitHub/Vercel push required to save globally.`);
+}
+</script>
+</body>
+</html>

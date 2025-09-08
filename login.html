@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-content">
+  <h1>Admin Login</h1>
+  <form id="loginForm">
+    <input type="text" placeholder="Username" id="username" required>
+    <input type="password" placeholder="Password" id="password" required>
+    <button type="submit">Login</button>
+  </form>
+</div>
+
+<script>
+document.getElementById('loginForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const user = document.getElementById('username').value;
+  const pass = document.getElementById('password').value;
+  if(user === 'fsociety' && pass === 'fattuu786'){
+    window.location.href = 'admin.html';
+  } else {
+    alert('Invalid credentials!');
+  }
+});
+</script>
+</body>
+</html>
